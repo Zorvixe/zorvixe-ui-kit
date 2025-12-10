@@ -1,0 +1,17 @@
+/* Zorvixe UI Kit - Section Helper Styles */
+/* Version: 1.5*/
+
+[data-section] {
+    /* Initially handled by JS, so no need to hide here */
+    /* Can add spacing / transitions if needed */
+}
+
+/* Optional: smooth show/hide transition */
+[data-section] {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Default section (optional, JS handles actual display) */
+[data-section][data-default] {
+    /* Display handled via JS */
+}
